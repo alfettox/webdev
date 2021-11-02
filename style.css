@@ -1,0 +1,73 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap');)
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(/images/james-sutton-dQ5G0h7sLno-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+}
+
+h1 {
+    font-family: 'Josefin', sans-serif, bold;
+    font-size: 2rem;
+    margin:0rem;
+    color: white;
+    line-height: 0px;
+
+}
+
+#name {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 4.8rem;
+    line-height: 0px;
+}
+
+.countdown-container{
+    display: flex;
+    padding-top: 2.5rem;
+    color: #4b351e;
+    line-height: 1px;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.big-text{
+    font-size: 3rem;
+    padding: rem;
+    padding-left: 1.5 rem;
+    padding-right: 1.5rem;
+    align:center;
+
+}
+
+.countdown-el span{
+    font-size: .8rem;
+    margin-top: 0;
+    align:center;
+
+
+}
+.countdown-el {
+    text-align:center;
+}
+
+.footer{
+    font-style: italic;
+    bottom: 1%;
+    position: fixed;
+    font-size: .8rem;
+    text-align: right;
+}
