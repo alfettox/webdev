@@ -1,73 +1,84 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap');)
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;0,600;1,100;1,300&family=Josefin+Sans:wght@100;300;400&display=swap');
 
-* {
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-body {
-    margin: 3rem;
-    font-family: 'Josefin Sans', sans-serif;
-    background-image: url(https://github.com/alfettox/webdev/blob/master/Images/james-sutton-dQ5G0h7sLno-unsplash.jpg?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-
-}
-
-h1 {
-    font-family: 'Josefin', sans-serif, bold;
-    font-size: 2rem;
-    margin:0rem;
-    color: white;
-    line-height: 0px;
-
-}
-
-#name {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:white;
-    font-size: 4.8rem;
-    line-height: 0px;
-}
-
-.countdown-container{
-    display: flex;
-    padding-top: 2.5rem;
-    color: #4b351e;
-    line-height: 1px;
+*{
+    font-family: 'Exo 2', sans-serif;
+    color:rgb(255, 255, 255);
     align-items:center;
+}
+
+.body {
+    margin: auto;
+    background-color: #abe9cd;
+    background-image: linear-gradient(360deg, #257ebd 15%, #71a5ca 74%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0px;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 20% 70%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 20% 70%;
+    }
+}
+
+
+.quiz-header{
+    padding: 1px 10px 0px 10px;
+
+}
+.quiz-container {
+    border: 1px;
+    border-radius: 9px;
+    background-color:#2980b9;
+    width: 300px;
+    box-shadow:  0px 0px 10px 5px rgba(255, 255,255, .1);
+    font-size: 1.2rem;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+    padding: 1rem;
+}
+
+ul li label{
+        cursor: pointer;
+    }
+
+button{
+    color: white;
+    background-color: #3498db;
+    border:none;
+    padding: 1rem;
+    border-radius: 3px;
+    display: block;
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.8rem;
     flex-wrap: wrap;
+    mix-blend-mode:luminosity;
 }
 
-.big-text{
-    font-size: 3rem;
-    padding: rem;
-    padding-left: 1.5 rem;
-    padding-right: 1.5rem;
-    align:center;
-
+h2{
+    padding: 20px;
 }
 
-.countdown-el span{
-    font-size: .8rem;
-    margin-top: 0;
-    align:center;
-
-
-}
-.countdown-el {
-    text-align:center;
+button:hover{
+    background-color: #57aae0;
+    border: 10px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.footer{
-    font-style: italic;
-    bottom: 1%;
-    position: fixed;
-    font-size: .8rem;
-    text-align: right;
-}
